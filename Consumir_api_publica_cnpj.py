@@ -20,3 +20,4 @@ pprint(requisicao.json())
 atividade_principal = requisicao.json()["estabelecimento"]["atividade_principal"]["descricao"]
 print(atividade_principal)
 
+#Fim
