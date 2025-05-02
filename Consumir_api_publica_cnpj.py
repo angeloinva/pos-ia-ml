@@ -18,6 +18,6 @@ pprint(requisicao.json())
 
 # Printa na tela somente o campo escolhido, nesse caso são campos dentro de listas, dentro de listas
 atividade_principal = requisicao.json()["estabelecimento"]["atividade_principal"]["descricao"]
-print(atividade_principal)
+print("A atividade é:", atividade_principal)
 
-#Fim
+#Fim do arquivo
